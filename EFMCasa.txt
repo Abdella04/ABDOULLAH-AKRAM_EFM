@@ -1,0 +1,112 @@
+1-<nav> (Navigation):
+Utilisation : La balise <nav> est utilisée pour entourer une section contenant des liens de navigation, tels que des menus ou des barres de navigation.
+
+<article>:
+Utilisation : La balise <article> est utilisée pour définir une section de contenu indépendant qui a un sens par lui-même, comme un article ou une publication.
+
+2-<nav>
+    <ol>
+        #
+        #
+    </ol>
+</nav>
+
+<footer>
+    #
+</footer>
+
+3-<input type="range">
+  <input type="number">
+
+4-overflow: visible
+ 
+5-background-attachment: fixed; /* Keeps the background fixed when scrolling */
+  background-repeat: no-repeat; /* Prevents the background from repeating */
+  background-position: top right; /* Places the background at the top right corner */
+
+6-HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="EFMCasa.css">
+</head>
+<body>
+    <form action="">
+        <h1 style="text-align: center;">formulaire inscription</h1>
+        <table>
+        <tr>
+            <th style="padding-right: 100px;">
+                nom:
+            </th>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <th style="padding-right: 100px;">
+                Prenom:
+            </th>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <th style="padding-right: 100px;">
+                sex
+            </th>
+            <td>
+                <input type="radio"name="Gender">male
+                <input type="radio"name="Gender">female
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox"checked>j'accept 
+            </td>
+        </tr>
+        </table>
+
+    </form>
+    <footer class="a">
+        <img src="pp3.jpg" alt="Background Image" class="b">
+        
+        <ul class="c">
+            <li ><a href="#"class="d">site1</a></li>
+            <li ><a href="#"class="d">site2</a></li>
+            <li ><a href="#"class="d">site3</a></li>
+            
+        
+
+        </ul>
+    </footer>
+</body>
+</html>
+
+CSS
+
+.a{
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
+    width: 100%;
+    color: white;
+}
+.b{
+    display: flex;
+    align-self:  center;
+    height:70px ;
+    width: 50px;
+    margin-left:10px ;
+    margin-right: 10px;
+}
+.d{
+    font-size: 50px;
+    color: grey;
+    text-decoration: underline;
+}
+
+  
+  

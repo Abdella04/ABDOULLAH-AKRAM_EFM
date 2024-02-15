@@ -1,0 +1,20 @@
+.a{
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
+    width: 100%;
+    color: white;
+}
+.b{
+    display: flex;
+    align-self:  center;
+    height:70px ;
+    width: 50px;
+    margin-left:10px ;
+    margin-right: 10px;
+}
+.d{
+    font-size: 50px;
+    color: grey;
+    text-decoration: underline;
+}
