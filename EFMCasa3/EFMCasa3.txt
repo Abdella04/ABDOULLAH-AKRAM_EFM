@@ -1,0 +1,32 @@
+1-
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        
+    </body>
+</html>
+2-#b
+ <p></p>
+
+ 3-
+ <li type="square">ea</li>
+
+ 4-
+ color:blue
+ font-size:2em
+ margin-bottom:20px
+
+ background-color: yellow;
+ border: 2px solid orange;
+ padding: 15px;
+ font-family: Verdana;
+ color: grey;
+ height: 150px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+ 5-
